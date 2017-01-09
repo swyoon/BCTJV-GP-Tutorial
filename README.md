@@ -19,6 +19,10 @@ Clone and install required packages.
 2. ```cd BCTJV-GP-Tutorial```
 3. ```pip install -r requirements.txt```
 
+Enable ipywidgets.
+
+1. ```jupyter nbextension enable --py --sys-prefix widgetsnbextension```
+
 Run jupyter on your local host. Additional settings (port and password) are required to run a remote server.
 
 1. ```jupyter notebook```
